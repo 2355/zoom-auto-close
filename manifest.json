@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Zoom Success Page Auto Close",
+  "version": "1.0",
+  "description": "Zoomミーティング起動後の成功ページを自動で閉じます",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.zoom.us/j/*#success"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
